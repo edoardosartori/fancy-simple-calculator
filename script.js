@@ -1,4 +1,4 @@
-// Edoardo Sartori, copied (but modified for better) as excercise from yt video from ASMR Progrmamming-->
+// Edoardo Sartori, copied (but modified for better) as excercise
 
 let runningTotal = 0;
 let buffer = '0';
