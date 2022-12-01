@@ -1,4 +1,4 @@
-// Edoardo Sartori, copied (but modified for better) as excercise
+// Edoardo Sartori, copied  as excercise (but modified for more and better functioning)
 
 let runningTotal = 0;
 let buffer = '0';
