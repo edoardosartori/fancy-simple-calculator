@@ -8,6 +8,7 @@ let calculated = false;
 let opBlocked = false;
 let maxVisibleInScreen = 13;
 
+const buttons = document.querySelector('.calc-buttons');
 const upperscreen = document.querySelector('.upperscreen');
 const screen = document.querySelector('.screen');
 const arrowButton = document.getElementById('arrow-button');
@@ -135,7 +136,7 @@ function printSymbolInUpperscreen(symbol) {
     if (symbol === '=') {
         symbol = '= ';
     }
-    calcs.push(symbol);
+    if (symbol != '←') calcs.push(symbol);
     printCalcs();
 }
 
@@ -194,7 +195,7 @@ function reset() {
  }
 
 function init(){
-    document.querySelector('.calc-buttons').addEventListener('click', function(event){
+    buttons.addEventListener('click', function(event){
         buttonClick(event.target.innerText);
     })
 }
