@@ -1,5 +1,3 @@
-// Edoardo Sartori, copied  as excercise (but modified for more and better functioning)
-
 let runningTotal = 0;
 let buffer = '0';
 let previousOperator;
